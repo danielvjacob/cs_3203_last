@@ -8,4 +8,11 @@ public class last {
         }
         return result;
     }
+    public static int Product(int[] array) {
+        int result = 1;
+        for (int i = 0; i < array.length; i++){
+            result = result * array[i];
+        }
+        return result;
+    }
 }
